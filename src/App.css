@@ -1,0 +1,29 @@
+button {
+  color: white;
+  background-color: black;
+  padding: 0;
+  width: 4%;
+  height: auto;
+  padding: 7px;
+  margin: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.container {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 19%;
+  height: auto;
+  border: solid cadetblue;
+    
+}
+
+h1 {
+  color: aquamarine;
+  background-color: black;
+  font-weight: 900;
+}
