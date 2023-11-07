@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import TodoForm from './TodoForm';
 import Todo from './Todo';
-
+//import ReactCSSTransitionGroup from 'react-transition-group';
+//var ReactCSSTransitionGroup = require('react-transition-group'); 
 function TodoList() {
   const [todos, setTodos] = useState([]);
 
@@ -42,7 +43,10 @@ function TodoList() {
 
   return (
     <>
-      <h1>What's the Plan for Today?</h1>
+      <h1>TODO APP</h1>
+      <h2>What's the Plan for Today?</h2>
+
+      
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

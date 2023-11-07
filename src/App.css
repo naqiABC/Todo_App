@@ -28,8 +28,9 @@ body {
 
 h1 {
   margin: 32px 0;
-  color: #fff;
-  font-size: 24px;
+  color: aquamarine;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .complete {
@@ -135,6 +136,11 @@ h1 {
   align-items: center;
   font-size: 24px;
   cursor: pointer;
+}
+h2 {
+  color: brown;
+  padding: 10px;
+  font-size: 26px;
 }
 
 .delete-icon {
